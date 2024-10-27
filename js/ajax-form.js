@@ -9,7 +9,7 @@ $(function () {
 
     // Define the AJAX URL with query parameters
     var url =
-      "https://script.google.com/macros/s/AKfycbzMlaT1S_oav1i3N9xqwwpCPuBTFd_3k2gLtjHunIq56R7sY20j-MN-p2dyT4qBb8h2gA/exec";
+      "https://script.google.com/macros/s/AKfycbz4iFHznbzuT7tzkIwv_LurqBkj4VPlNEmeXqCtKTF5z2VApnmUf5qjPJC_S8mkkEcKAA/exec";
 
     // Collect the form data
     var params = {
@@ -17,8 +17,10 @@ $(function () {
       action: "write",
       name: $("#name").val(),
       amount: $("#default-select").find(":selected").val(),
-      note: $("textarea").val(),
+      note: $("#note").val(),
+      wish: $("#wish").val(),
     };
+    console.log(params, "hehe");
 
     // Change button text and disable the button
     const rsvpButton = document.getElementById("rsvpButton");

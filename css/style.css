@@ -21,7 +21,7 @@
 /* 1. Theme default css */
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 body {
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -75,7 +75,7 @@ button {
 
 /* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   color: #1F1F1F;
 }
 
@@ -107,7 +107,7 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
 }
 
 /* line 73, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
@@ -455,7 +455,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 15px 44px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   font-size: 16px;
   font-weight: 600;
   border: 0;
@@ -740,7 +740,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 120px;
+    /* width: 120px; */
   }
 }
 
@@ -1144,7 +1144,7 @@ h3 {
 /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text h3 {
   font-size: 36px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   font-weight: 400;
   color: #fff;
   line-height: 46px;
@@ -1179,7 +1179,7 @@ h3 {
 /* line 138, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text span {
   font-size: 18px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   font-weight: 400;
   color: #fff;
 }
@@ -1321,7 +1321,7 @@ h3 {
 /* line 39, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .weeding_countdown_area .countdown_area .countdown_wrap .single_countdown h3 {
   font-size: 60px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   font-weight: 400;
   color: #C78665;
   margin-bottom: 17px;
@@ -1380,7 +1380,7 @@ h3 {
 .program_details_area .single_program .program_inner span {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
 }
 
 /* line 27, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
@@ -1870,7 +1870,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area {
-  padding: 0 50px;
+  /* padding: 0 50px; */
   position: relative;
 }
 
