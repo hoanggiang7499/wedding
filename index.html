@@ -291,7 +291,7 @@
                       <div class="text-center">
                         <div class="">
                           <img
-                            src="img/program_details/IMG_5001.jpg"
+                            src="img/program_details/1.png"
                             alt=""
                             width="50%"
                             height="50%"
@@ -402,7 +402,9 @@
       window.onload = function () {
         if (!isMobileDevice()) {
           // Redirect to a custom page or show a message
-          window.location.href = `${window.location.origin}/no-access.html`;
+          window.location.href = `${
+            window.location.origin
+          }${window.location.pathname.replace(/\/[^/]*$/, "/no-access.html")}`;
         }
       };
       let isPlaying = false; // To make sure the audio only plays once on scroll
